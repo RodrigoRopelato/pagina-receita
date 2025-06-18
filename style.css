@@ -1,10 +1,14 @@
+:root{
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37;
+}
 
 body{
   /* background: url('./assets/bg.jpg') lightgray 50% / cover no-repeat;
    */
    background-image: url('./assets/bg.jpg');
    background-size: cover;
-
 }
 #page{
   box-sizing: border-box;
@@ -17,36 +21,30 @@ body{
 }
 img{
   border-radius: 16px;
-}
-/*  
-#conteudo{
-
-
-  font-family: Alice;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  color: #573A37;
-  font-size: 16px;
-}
-
-img{
   height: 400px;
-  align-self: stretch;
-  border-radius: 16px;
 }
-
-.receita{
+main{
   padding: 0px 24px 24px 24px;
-  align-self: stretch;
-}
 
+}
 h1{
   font-size: 40px;
   line-height: 140%;
-  color: #291B1A;
 }
 h2{
   font-size: 24px;
+} 
+
+h1, h2{
   color: #291B1A;
-} */
+}
+
+/*  
+img{
+  border-radius: 16px;
+  align-self: stretch;
+}
+
+.receita{
+  align-self: stretch;
+}
